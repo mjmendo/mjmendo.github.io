@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About me 
+title: Sobre mim
 ---
 
-This is where you could put your "About me" page.
+Desenvolvedor Web e apaixonado por Software Livre
