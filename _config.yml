@@ -8,5 +8,5 @@ logo: false
 paginate: 15
 
 # Details for the RSS feed generator
-url:            'blog url'
+url:            'havoki.github.io'
 author:         'Tom Nascimento'
