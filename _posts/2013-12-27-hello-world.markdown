@@ -17,5 +17,7 @@ Pra quem usa essa linguagem de marcação sabe a facilidade que é escrever com 
 
 ##Referencias
 <a href="http://jekyllrb.com/">Jekyll</a>
+
 <a href"http://www.felipefialho.com/blog/2013/geradores-estaticos-breve-explicacao/#.Ur4UefRDuek">Geradores estáticos - Breve explicação</a>
+
 <a href="http://tableless.com.br/jekyll-servindo-sites-estaticos/#.Ur4SYPRDuek">Servindo sites estáticos com Jekyll</a>
