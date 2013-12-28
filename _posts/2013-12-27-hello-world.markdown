@@ -13,9 +13,9 @@ Você não sabe o que é Jekyll? Jekyll é uma excelente ferramenta para quem go
 
 Jekyll  gera os arquivos em `.html`, o que torna a performance do site muito melhor. Não precisa de um servidor potente, pois não usa banco de dados. Outra vantagem do Jekyll é poder escrever as postagens em Markdown . 
 
-Pra quem usa essa linguagem de marcação sabe a facilidade que é escrever com ela.Crie seu arquivo `.md`, rode o Jekyll e veja a mágica acontecer! Você pode usar o Jekyll em conjunto com o GitHub Pages e dar adeus a hospedagem paga.
+Pra quem usa essa linguagem de marcação sabe a facilidade que é escrever com ela. Crie seu arquivo `.md`, rode o Jekyll e veja a mágica acontecer! Você pode usar o Jekyll em conjunto com o GitHub Pages e dar adeus a hospedagem paga.
 
-##Referencias
+##Referências
 <a href="http://jekyllrb.com/">Jekyll - Site Oficial</a>
 
 <a href="http://www.felipefialho.com/blog/2013/geradores-estaticos-breve-explicacao/#.Ur4UefRDuek">Geradores estáticos - Breve explicação - Felipe Fialho</a>
