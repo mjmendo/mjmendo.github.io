@@ -16,8 +16,8 @@ Jekyll  gera os arquivos em `.html`, o que torna a performance do site muito mel
 Pra quem usa essa linguagem de marcação sabe a facilidade que é escrever com ela.Crie seu arquivo `.md`, rode o Jekyll e veja a mágica acontecer! Você pode usar o Jekyll em conjunto com o GitHub Pages e dar adeus a hospedagem paga.
 
 ##Referencias
-<a href="http://jekyllrb.com/">Jekyll</a>
+<a href="http://jekyllrb.com/">Jekyll - Site Oficial</a>
 
-<a href"http://www.felipefialho.com/blog/2013/geradores-estaticos-breve-explicacao/#.Ur4UefRDuek">Geradores estáticos - Breve explicação</a>
+<a href"http://www.felipefialho.com/blog/2013/geradores-estaticos-breve-explicacao/#.Ur4UefRDuek">Geradores estáticos Breve explicação</a>
 
 <a href="http://tableless.com.br/jekyll-servindo-sites-estaticos/#.Ur4SYPRDuek">Servindo sites estáticos com Jekyll</a>
