@@ -1,6 +1,6 @@
 name: Tom Nascimento
-description: Postando sobre meus aprendizados 
-meta_description: "Tom Nascimento, Postando sobre meus aprendizados "
+description: 
+meta_description: "Tom Nascimento"
 
 markdown: redcarpet
 pygments: true
