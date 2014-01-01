@@ -9,7 +9,7 @@ Para o primeiro post do blog vou falar da ferramenta que usei pra criar este blo
 
 Jekyll é um gerador de sites estaticos em Ruby e desenvolvido por <a href="tom.preston-werner.com">Tom Preston</a>. Ele pega um diretório de template que contém arquivos de texto brutos em vários formatos, Markdown (ou Textile) e Liquid os converte, e mostra um completo website estático, pronto para publicar em seu servidor web favorito. 
 
-Instalar o Jekyll é muito fácil 
+Instalar o Jekyll é muito fácil. Tendo o Ruby instalado siga os passos:
 
 {% highlight bash %}
 ~ $ gem install jekyll
