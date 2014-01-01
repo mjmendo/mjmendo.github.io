@@ -1,12 +1,15 @@
 ---
 layout: post
-title:  "Escrevendo Posts com Jekyll"
+title:  Escrevendo Posts com Jekyll
 date:   2014-01-01 20:00:00
 categories: iniciante
 ---
 
+<p align="right"> "Ensinar é aprender duas vezes". 
+</p>
 
-Escrevendo Posts com Jekyll
+<p align="right">Joseph Joubert</p>
+                                                                                   
 
 Para o primeiro post do blog vou falar da ferramenta que usei pra criar este blog.
 
