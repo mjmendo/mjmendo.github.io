@@ -7,7 +7,7 @@ categories: iniciante
 
 Para o primeiro post do blog vou falar da ferramenta que usei pra criar este blog.
 
-Jekyll é um gerador de sites estaticos em Ruby e desenvolvido por Tom Preston. Ele pega um diretório de template que contém arquivos de texto brutos em vários formatos, Markdown (ou Textile) e Liquid os converte, e mostra um completo website estático, pronto para publicar em seu servidor web favorito. 
+Jekyll é um gerador de sites estaticos em Ruby e desenvolvido por <a href="tom.preston-werner.com">Tom Preston</a>. Ele pega um diretório de template que contém arquivos de texto brutos em vários formatos, Markdown (ou Textile) e Liquid os converte, e mostra um completo website estático, pronto para publicar em seu servidor web favorito. 
 
 Instalar o Jekyll é muito fácil 
 
@@ -28,4 +28,4 @@ YEAR-MONTH-DAY-title.MARKUP
 
 Pronto! Agora você já tem um novo post no seu blog.
 
-O Jekyll é muito leve e não usa banco de dados ou conteúdo dinâmico gerado em runtime. Você pode hospedar gratuitamente seu blog no GitHub Pages.
+O Jekyll é muito leve e não usa banco de dados ou conteúdo dinâmico gerado em runtime. Você pode hospedar gratuitamente seu blog no <a href="http://pages.github.com/">GitHub Pages</a>.
