@@ -5,12 +5,6 @@ date:   2014-01-01 20:00:00
 categories: iniciante
 ---
 
-<p align="right"> "Ensinar é aprender duas vezes". 
-</p>
-
-<p align="right">Joseph Joubert</p>
-                                                                                   
-
 Para o primeiro post do blog vou falar da ferramenta que usei pra criar este blog.
 
 Jekyll é um gerador de sites estaticos em Ruby e desenvolvido por Tom Preston. Ele pega um diretório de template que contém arquivos de texto brutos em vários formatos, Markdown (ou Textile) e Liquid os converte, e mostra um completo website estático, pronto para publicar em seu servidor web favorito. 
