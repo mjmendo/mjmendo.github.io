@@ -34,7 +34,7 @@ Digite virtualenv mais o nome que você deseja para seu ambiente.
 ~ $ virtualenv ENV
 {% endhighlight %}
 
-Esse comando irá criar um diretório chamado ENV com mais três diretórios:
+Esse comando irá criar um diretório chamado ENV com mais dois diretórios:
 
     bin – executável do interpretador, o script easy_install e o arquivo activate que será usado para “ativar” o ambiente. Quando o ambiente está “ativo” os executáveis dos aplicativos Python são instalados aqui também.
 
