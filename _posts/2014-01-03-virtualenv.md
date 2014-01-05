@@ -1,25 +1,12 @@
 ---
 layout: post
-title:  Virtualenv o que é e por que deveria usar?
+title:  Virtualenv o que é e Por que você deveria usar?
 date:   2014-01-03 20:00:00
 categories: iniciante
 ---
 
-Eu uso Ubuntu, uma distribuição do Linux, ele já vem
-com o python instalado. Para saber qual a versão python
-você tem no seu S.O use o seguinte comando:
-{% highlight bash %}
-~ $ python -V
-{% endhighlight %}
 
-
-Dependendo do projeto que você vai desenvolver em Python você terá
-que instalar alguns pacotes e isso é muito fácil nesta linguagem. Mas 
-se você não quer comprometer o seu S.O e ter problemas com versões 
-você pode usar o virtualenv.
-
-Virtualenv é uma ferramenta para criar ambientes python isolado. Com 
-esta ferramenta você pode desenvolver com qualquer versão do Pyhton e sem se perocupar com permissões de usuário.
+[Virtualenv](http://www.virtualenv.org/en/latest/) é uma ferramenta para criar ambientes python isolado. Se você usa Linux  saiba que as distribuições dele já vem com uma versão python instalada, e se você não quer comprometer seu sistema é importante que você use o virtualenv. Também é útil pra quem trabalha em diversos projetos ao mesmo tempo e com várias versões do python.
 
 Para instalar o Virtualenv globalmente basta digitar o comando abaixo:
 
@@ -56,6 +43,10 @@ Para ativar o ambiente use:
 {% endhighlight %}
 
 Agora você pode instalar o que você quiser sem preocupação.
+O virtualenv já vem integrado na versão 3.3 do python. 
+
+
+
 
 
 
