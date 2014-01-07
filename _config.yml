@@ -11,3 +11,8 @@ permalink: /:title
 # Details for the RSS feed generator
 url:            'havoki.github.io'
 author:         'Tom Nascimento'
+
+#
+analytics :
+  provider : google 
+  google : UA-46907142-1
