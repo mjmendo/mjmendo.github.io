@@ -8,6 +8,8 @@ categories: iniciante
 
 [Virtualenv](http://www.virtualenv.org/en/latest/) é uma ferramenta para criar ambientes python isolado. Se você usa Linux  saiba que as distribuições dele já vem com uma versão python instalada, e se você não quer comprometer seu sistema é importante que você use o virtualenv. Também é útil pra quem trabalha em diversos projetos ao mesmo tempo e com várias versões do python.
 
+> "Ensinar é aprender duas vezes".
+
 Para instalar o Virtualenv globalmente basta digitar o comando abaixo:
 
 {% highlight bash %}
