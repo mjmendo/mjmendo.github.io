@@ -24,6 +24,7 @@ Digite virtualenv mais o nome que você deseja para seu ambiente.
 {% endhighlight %}
 
 Esse comando irá criar um diretório chamado ENV com mais dois diretórios:
+
    bin – executável do interpretador, o script easy_install e o arquivo activate que será usado para “ativar” o ambiente. Quando o ambiente está “ativo” os executáveis dos aplicativos Python são instalados aqui também.
 
    lib – a árvore com links simbólicos e/ou cópias de todos os módulos e bibliotecas do Python. Quando esse ambiente está “ativo” os módulos e pacotes serão sempre instalados dentro desse diretório.
