@@ -12,7 +12,4 @@ permalink: /:title
 url:            'havoki.github.io'
 author:         'Tom Nascimento'
 
-#
-analytics :
-  provider : google 
-  google : UA-46907142-1
+
