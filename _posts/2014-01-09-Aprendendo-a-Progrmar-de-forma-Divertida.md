@@ -22,5 +22,5 @@ jogou Zelda irá gostar deste joguinho.
 ![alt text](http://www.blogcdn.com/www.engadget.com/media/2012/04/vimadventuresgamefun.jpg)
 
 Se você conhece outro game que ensine programação e que deveria estar na lista.
-Então sintam-se à vontade para enviar sugestões nos comentários ou enviar um pull 
+Então sinta-se à vontade para enviar sugestões nos comentários ou enviar um pull 
 request para [havoki.github.io](https://github.com/havoki/havoki.github.io) 
