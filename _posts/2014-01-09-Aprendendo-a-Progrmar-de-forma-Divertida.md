@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Apredendo a Programar de Forma Divertida
+title:  Aprendendo a Programar de Forma Divertida
 date:   2014-01-09 14:00:00
 categories: iniciante
 ---
