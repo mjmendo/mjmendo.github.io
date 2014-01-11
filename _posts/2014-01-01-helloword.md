@@ -5,6 +5,8 @@ date:   2014-01-01 20:00:00
 categories: iniciante
 ---
 
+> "Jamais haverá ano novo se continuar a copiar os erros dos anos velhos."
+
 Para o primeiro post do blog vou falar da ferramenta que usei pra criá-lo.
 
 Jekyll é um gerador de sites estaticos em Ruby e desenvolvido por 
