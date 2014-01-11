@@ -34,4 +34,5 @@ YEAR-MONTH-DAY-title.MARKUP
 Pronto! Agora você já tem um novo post no seu blog.
 
 O Jekyll é muito leve e não usa banco de dados ou conteúdo dinâmico gerado em 
-runtime. Você pode hospedar gratuitamente seu blog no <a href="http://pages.github.com/">GitHub Pages</a>.
+runtime. Você pode hospedar gratuitamente seu blog no 
+<a href="http://pages.github.com/">GitHub Pages</a>.
