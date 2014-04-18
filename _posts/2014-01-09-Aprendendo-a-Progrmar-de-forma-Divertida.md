@@ -21,7 +21,11 @@ jogou Zelda irá gostar deste joguinho.
 
 ![alt text](http://www.blogcdn.com/www.engadget.com/media/2012/04/vimadventuresgamefun.jpg)
 
-Para quem quer aprender Ruby tem o [Ruby Warrior](https://www.bloc.io/ruby-warrior#/). O objetivo do jogo é ajudar o guerreiro a chegar ao topo e salvar a princesa utilizando a linguagem Ruby! 
+Para quem quer aprender Ruby tem o [Ruby Warrior](https://www.bloc.io/ruby-warrior#/).
+
+![alt text](http://pds21.egloos.com/pds/201312/23/31/e0109731_52b76ff723d91.png)
+
+O objetivo do jogo é ajudar o guerreiro a chegar ao topo e salvar a princesa utilizando a linguagem Ruby! 
 
 Se você conhece outro game que ensine programação e que deveria estar na lista.
 Então sinta-se à vontade para enviar sugestões nos comentários ou enviar um pull 
