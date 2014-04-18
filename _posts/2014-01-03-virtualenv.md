@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Virtualenv o que é e Por que você deveria usar?
+title:  Virtualenv o que é e por que você deveria usar?
 date:   2014-01-03 20:00:00
 categories: iniciante
 ---
@@ -28,9 +28,10 @@ Digite virtualenv mais o nome que você deseja para seu ambiente.
 
 Esse comando irá criar um diretório chamado ENV com mais dois diretórios:
 
-bin – executável do interpretador, o script easy_install e o arquivo activate
+bin - executável do interpretador, o script easy_install e o arquivo activate
 que será usado para “ativar” o ambiente. Quando o ambiente está “ativo” os 
-executáveis dos aplicativos python são instalados aqui também. 
+executáveis dos aplicativos python são instalados aqui também.
+
 lib – a árvore com links simbólicos e/ou cópias de todos os módulos e 
 bibliotecas do Python. Quando esse ambiente está “ativo” os módulos e pacotes
 serão sempre instalados dentro desse diretório.
@@ -52,7 +53,15 @@ Para ativar o ambiente use:
 {% endhighlight %}
 
 Agora você pode instalar o que você quiser sem preocupação.
+
+## Python 3.3
+
+
 O virtualenv já vem integrado na versão 3.3 do python. 
+
+{% highlight bash %}
+python3 -m venv /path/to/new/virtual/environment
+{% endhighlight %}
 
 ## Referencias 
 
