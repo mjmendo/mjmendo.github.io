@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Sublime Text Para Pythonistas
-date:   2014-015-09 14:00:00
+date:   2014-05-24 14:00:00
 categories: iniciante
 ---
 
@@ -16,7 +16,7 @@ Neste post vou apresentar o editor de texto e plugins que uso.
 Eu já usei IDEs pesadas como Eclipse e Netbeans antes de conhecer 
 o Sublime Text. A simplicidade do sublime text me chamou a atenção. 
 Ele é leve, simples de usar, bonito e customizável.
-
+![alt text](http://i.imgur.com/snnBCO8.jpg)
 Goto Anything - usando o ctrl+p ele abre um campo de busca, onde eu posso fazer de maneira mais prática uma navegação entre meus
 arquivos.
 
