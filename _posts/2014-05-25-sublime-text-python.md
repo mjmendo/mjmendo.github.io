@@ -1,11 +1,12 @@
 ---
 layout: post
 title:  Sublime Text para Pythonistas
-date:   2014-05-09 13:29:00
+date:   2014-05-09 13:30:00
 categories: iniciante
 ---
 
 > "Nem homem nem nação podem existir sem uma ideia sublime".
+
 
 Python é uma linguagem fácil de usar e muito intuitiva. Com essas 
 características você não precisa usar IDEs. Fazendo com que  um editor de texto seja mais que  
