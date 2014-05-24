@@ -4,6 +4,7 @@ title:  Sublime Text para Pythonistas
 date:   2014-05-09 13:29:00
 categories: iniciante
 ---
+
 > "Nem homem nem nação podem existir sem uma ideia sublime".
 
 # Sublime Text para Pythonistas
