@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Sublime Text Para Pythonistas
+title:  Sublime Text para pythonistas
 date:   2014-05-24 14:00:00
 categories: iniciante
 ---
@@ -12,18 +12,20 @@ características você não precisa usar IDEs. Fazendo com que  um editor de tex
 Neste post vou apresentar o editor de texto e plugins que uso.
 
 Eu já usei IDEs pesadas como Eclipse e Netbeans antes de conhecer 
-o Sublime Text. A simplicidade do sublime text me chamou a atenção. 
+o Sublime Text. A simplicidade do Sublime Text me chamou a atenção. 
 Ele é leve, simples de usar, bonito e customizável.
 
 ![alt text](http://i.imgur.com/snnBCO8.jpg)
 
-Goto Anything - usando o ctrl+p ele abre um campo de busca, onde eu posso fazer de maneira mais prática uma navegação entre meus
+Algumas caracteristicas do Sublime:
+
+- Goto Anything - usando o ctrl+p ele abre um campo de busca, onde eu posso fazer de maneira mais prática uma navegação entre meus
 arquivos.
 
-Personalização - a personalização são feitas em um arquivo que lembra a sintaxe do json. Nesse arquivo 
+- Personalização - a personalização são feitas em um arquivo que lembra a sintaxe do json. Nesse arquivo 
 eu posso mudar o tema, teclas de atalho, tamanho de fonte, espaços, tabs e etc. 
 
-Plugins - o sublime tem uma bastantes plugins para melhorar sua produtividade!
+- Plugins - o sublime tem uma bastantes plugins para melhorar sua produtividade!
 Antes de instalar qualquer plugin você precisa do Sublime [Packge Control](https://sublime.wbond.net/).
 
 <a href="http://reactiongifs.com/?p=3062"><img src="http://www.reactiongifs.com/r/2012/11/typing.gif"></a>
