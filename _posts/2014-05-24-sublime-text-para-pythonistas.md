@@ -8,11 +8,9 @@ categories: iniciante
 > "Nem homem nem nação podem existir sem uma ideia sublime".
 
 Python é uma linguagem fácil de usar e muito intuitiva. Com essas 
-características você não precisa usar IDEs. Fazendo com que  um editor de texto seja mais que  
-suficiente para escrever códigos.
+características você não precisa usar IDEs. Fazendo com que  um editor de texto seja mais que suficiente para escrever códigos.
+Neste post vou apresentar o editor de texto e plugins que uso.
 
-Neste post vou apresentar o editor de texto e plugins que uso.  
- 
 Eu já usei IDEs pesadas como Eclipse e Netbeans antes de conhecer 
 o Sublime Text. A simplicidade do sublime text me chamou a atenção. 
 Ele é leve, simples de usar, bonito e customizável.
@@ -36,4 +34,4 @@ Esses são alguns plugins que acho bacana:
 - [SublimeCodeIntel](https://sublime.wbond.net/packages/SublimeCodeIntel) usado para autocompletar seus códigos.
 - [SublimeRope](https://sublime.wbond.net/packages/SublimeRope)que além de auto complete tem um conjunto de funções tipicas de um ide,esse plugin também é especifico para python.
 
-Eu estou feliz com o Sublime Text. Mas existem outros editores de texto legais como o [vim](http://www.vim.org/), [brackets](brackets.io) e o [atom](https://atom.io/).  
+Eu estou feliz com o Sublime Text. Mas existem outros editores de texto legais como o [vim](http://www.vim.org/), [brackets](http://brackets.io/) e o [atom](https://atom.io/).  
