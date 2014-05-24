@@ -7,22 +7,19 @@ categories: iniciante
 
 > "Nem homem nem nação podem existir sem uma ideia sublime".
 
-# Sublime Text para Pythonistas
-
 Python é uma linguagem fácil de usar e muito intuitiva. Com essas 
 características você não precisa usar IDEs. Fazendo com que  um editor de texto seja mais que  
 suficiente para escrever códigos.
 
 Neste post vou apresentar o editor de texto e plugins que uso.  
  
-
 ## Sublime Text
 
 Eu já usei IDEs pesadas como Eclipse e Netbeans antes de conhecer 
 o Sublime Text. A simplicidade do sublime text me chamou a atenção. 
 Ele é leve, simples de usar, bonito e customizável.
 
-#Coisas legais do Sublime Text
+Coisas legais do Sublime Text
 
 
 ## Goto Anything 
