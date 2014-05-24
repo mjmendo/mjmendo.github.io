@@ -31,6 +31,7 @@ Antes de instalar qualquer plugin você precisa do Sublime [Packge Control](http
 <a href="http://reactiongifs.com/?p=3062"><img src="http://www.reactiongifs.com/r/2012/11/typing.gif"></a>
 
 Esses são alguns plugins que acho bacana:
+
 - [Sublime Text 2 - Git Plugin](https://github.com/kemayo/sublime-text-git/wiki) possibilita comandos git diretamente no Sublime.
 - [Pythonpep8autoformat](https://sublime.wbond.net/packages/Python%20PEP8%20Autoformat) para padronização de código segundo a pep8.
 - [SublimeCodeIntel](https://sublime.wbond.net/packages/SublimeCodeIntel) usado para autocompletar seus códigos.
