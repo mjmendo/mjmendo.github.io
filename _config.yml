@@ -4,9 +4,11 @@ meta_description: "Tom Nascimento"
 
 markdown: redcarpet
 pygments: true
+excerpt_separator: <!--more-->
 logo: false
 paginate: 15
 permalink: /:title
+exclude: [Rakefile]
 
 # Details for the RSS feed generator
 url:            'havoki.github.io'
