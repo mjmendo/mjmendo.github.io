@@ -39,6 +39,13 @@ h1 {
 	clear: both;
 }
 
+.more {
+	margin: 0 auto;
+	width: 90%;
+	text-align: center;
+	clear: both;
+}
+
 #github-logo {
 	position: fixed;
 	bottom: -5px;
