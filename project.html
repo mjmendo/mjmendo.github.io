@@ -44,7 +44,11 @@ project: 'project'
 	<script src="assets/js/jquery.github.js"></script>
 
 	<script>
-		$("[data-repo]").github();
+	    $("[data-repo]").github({
+            iconStars:  true,
+            iconForks:  true,
+            iconIssues: true
+});
 	</script>
 
 </body>
