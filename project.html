@@ -1,0 +1,49 @@
+---
+layout: default
+title: project
+cover: true
+project: 'project.html'
+
+---
+
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+
+	<meta charset="UTF-8">
+	<title>Projetos</title>
+
+	<!-- Plugin CSS -->
+	<link rel="stylesheet" href="assets/css/base.css">
+
+	<!-- Demo CSS -->
+	<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+	<a href="https://github.com/havoki/">
+		<img class="github-ribbon" src="assets/images/github-ribbon.png" alt="Fork me on GitHub">
+	</a>
+
+	<div class="title">
+		<h1>Repositorios no GitHub</h1>
+		<p>Esses são alguns dos projetos que trabalhei</p>
+	</div>
+
+	<div class="projects">
+		<div data-repo="Leitech/leitech" class="github-box-wrap"></div>
+		<div data-repo="havoki/havoki.github.io" class="github-box-wrap"></div>
+	</div>
+
+	<img id="github-logo" src="assets/images/github-cat.png" alt="Github Cat" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.github.js"></script>
+
+	<script>
+		$("[data-repo]").github();
+	</script>
+
+</body>
+</html>
