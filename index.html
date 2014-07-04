@@ -3,7 +3,7 @@ layout: default
 title: Home
 cover: true
 about: 'about.html'
-project: 'project.html'
+project: 'projects.html'
 ---
 
 <header class="site-head" {% if page.cover %} style="background-image: url(assets/images/header.png)"{% endif%}>
@@ -19,7 +19,7 @@ project: 'project.html'
                 {{ site.description }}
                 {% if page.about %} 
                 <a href='{{site.baseurl}}{{ page.about }}'> Sobre mim</a> |
-                <a href='project'> Projetos</a>
+                <a href='projects'> Projetos</a>
                 {% endif %}
             </h2>
         </div>
