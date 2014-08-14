@@ -1,6 +1,6 @@
-name: Tom Nascimento
+name: Ewerton Nascimento
 description: 
-meta_description: "Tom Nascimento"
+meta_description: "Ewerton Nascimento"
 
 markdown: redcarpet
 pygments: true
@@ -11,7 +11,7 @@ permalink: /:title
 
 
 # Details for the RSS feed generator
-url:            'havoki.github.io'
-author:         'Tom Nascimento'
+url:            'ewertonorg.github.io'
+author:         'Ewerton Nascimento'
 
 
