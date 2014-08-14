@@ -5,6 +5,8 @@ meta_description: "Ewerton Nascimento"
 markdown: redcarpet
 pygments: true
 
+baseurl: http://ewertonorg.github.io/
+
 logo: false
 paginate: 15
 permalink: /:title
