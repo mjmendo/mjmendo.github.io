@@ -11,7 +11,7 @@ permalink: /:title
 
 
 # Details for the RSS feed generator
-url:            'http://ewertonorg.github.io/'
+url:            'ewertonorg.github.io'
 author:         'Ewerton Nascimento'
 
 
