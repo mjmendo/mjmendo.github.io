@@ -13,7 +13,7 @@ O primeiro deles é o [CodeCombat](http://codecombat.com). CodeCombat é um jogo
 estilo rpg ação. Para passar de fase você precisa cumprir algumas tarefas apenas
 usando código javascript.
 
-![alt text](http://codecombat.com/images/pages/home/front_screenshot_01.png)
+![alt text](http://26gems.io/blog/content/images/2014/Mar/2_18_CodeCombat_710x400_600x380.jpg)
 
 Outro projeto legal e viciante é o [Vim Adventures](http://vim-adventures.com/).
 VIM Adventures é um jogo online baseado em atalhos de teclado do VIM. Se você já
