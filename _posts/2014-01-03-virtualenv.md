@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  Virtualenv o que é e por que você deveria usar?
+title:  Ambientes virtuais Python - Parte 1
 date:   2014-01-03 20:00:00
 categories: iniciante
 ---
 
-> "Ensinar é aprender duas vezes".
+> "A melhor maneira de se ter uma boa idéia é ter várias boas idéias".
 
 Virtualenv é uma ferramenta para criar ambientes python isolado. Se você usa 
 Linux  saiba que as distribuições dele já vem com uma versão python instalada, 
