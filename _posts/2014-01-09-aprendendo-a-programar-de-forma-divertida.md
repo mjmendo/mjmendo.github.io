@@ -29,4 +29,4 @@ O objetivo do jogo é ajudar o guerreiro a chegar ao topo e salvar a princesa ut
 
 Se você conhece outro game que ensine programação e que deveria estar na lista.
 Então sinta-se à vontade para enviar sugestões nos comentários ou enviar um pull 
-request para [havoki.github.io](https://github.com/havoki/havoki.github.io) 
+request para [ewertonorg.github.io](https://github.com/ewertonorg/ewertonorg.github.io) 
