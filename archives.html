@@ -13,7 +13,7 @@ published: true
   {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
     {% if month != nmonth %}
       {% if forloop.index != 1 %}</ul>{% endif %}
-      <h5>{{ post.date | date: '%B %Y' }}</h3><ul>
+      <h5>{{ post.date | date: '%B %Y' }}</h5><ul>
     {% endif %}
   <li><span class="time">{{ post.date | date: "%d/%m/%Y" }}</span>		<a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
