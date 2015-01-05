@@ -38,3 +38,5 @@ Esses são alguns plugins que acho bacana:
 - [SublimeRope](https://sublime.wbond.net/packages/SublimeRope) que além de auto complete tem um conjunto de funções tipicas de um ide,esse plugin também é especifico para python.
 
 Eu estou feliz com o Sublime Text. Mas existem outros editores de texto legais como o [vim](http://www.vim.org/), [brackets](http://brackets.io/) e o [atom](https://atom.io/).  
+
+Referência: [Sublime text dicas](http://sublimetextdicas.com.br/) 
