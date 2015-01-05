@@ -4,6 +4,7 @@ title: Home
 cover: true
 about: 'about.html'
 project: 'projects.html'
+archives: 'archives.html'
 ---
 
 <header class="site-head" {% if page.cover %} style="background-image: url(assets/images/header.png)"{% endif%}>
@@ -20,6 +21,7 @@ project: 'projects.html'
                 {% if page.about %} 
                 <a href='{{site.baseurl}}{{ page.about }}'> Sobre mim</a> |
                 <a href='projects'> Projetos</a>
+                {% if page.archives %} <a href='{{ site.baseurl }}{{ page.archives }}'> Archive</a>{% endif %}
                 {% endif %}
             </h2>
         </div>
