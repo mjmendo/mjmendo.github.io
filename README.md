@@ -1,0 +1,2 @@
+# mjmendo.github.io
+Blog!
