@@ -12,4 +12,4 @@ This is the first entry of the blog. Its pourpose is to remind me how this markd
   and the next text would be highlighted
 {% endhighlight %}
 
-* To add a link: todo
+* Writhe the rest through [markable.in](http://markable.in/).
