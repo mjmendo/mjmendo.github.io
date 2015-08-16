@@ -13,10 +13,10 @@ archive: true
                     <img src="{{site.logo}}" alt="{{ site.name }}" />
                 {% else %}
                     <span class="blog-title">{{ site.name }}</span>
-                {%endif%} 
+                {%endif%}
             </a>
         </header>
-        
+
         <span class="post-meta">
         	<time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>
         	{% if post.categories %}
@@ -39,7 +39,7 @@ archive: true
     		<ul>
     			{% for post in site.posts %}
     				<li><span>{{ post.date | date_to_string }}</span>  <a href="{{ post.url }}">{{ post.title }}</a></li>
-    			{% endfor %}	
+    			{% endfor %}
     		</ul>
         </section>
         {% endif %}
@@ -53,11 +53,12 @@ archive: true
                 		<!-- Author Name -->
                     	<h4> {{ site.author }} </h4>
                     	<!-- Author Bio -->
-                    	<p> 
-                    	  Entusiasta de tecnologias web, baixista e viciado em café. Você pode me conhecer melhor no <a href="https://github.com/mjmendo">GitHub</a> e no <a href="https://twitter.com/mjmendo">Twitter</a>
+                    	<p>
+                    	  //TODO: discover an appropriate description of who I am, so this section can be more interesting.
+                        In the mean time, you can visit my <a href="https://github.com/mjmendo">GitHub</a> account.
                     	</p>
                     </article>
-                </section>                
+                </section>
             {% endif %}
 
              <section class="share">
@@ -74,14 +75,14 @@ archive: true
                     <span class="hidden">Google+</span>
                 </a>
             </section>
-            
+
             {% if page.disqus %}
             <section class="disqus">
             	  <div id="disqus_thread"></div>
 		    	<script type="text/javascript">
 		        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 		        var disqus_shortname = 'havoki'; // required: replace example with your forum shortname
-		
+
 		        /* * * DON'T EDIT BELOW THIS LINE * * */
 		        (function() {
 		            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -91,10 +92,10 @@ archive: true
 		    </script>
 		    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 		    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-		    
+
             </section>
             {% endif %}
-        	
+
         </footer>
 
     </article>
