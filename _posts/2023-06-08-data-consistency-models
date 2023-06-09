@@ -1,0 +1,34 @@
+---
+layout: post
+title:  Data Consistency models
+date:   2023-06-08 18:032:00
+categories: generated
+---
+
+Data consistency models are fundamental to distributed systems and concurrent programming. They establish the rules about how operations on data are seen by different threads of execution or different nodes in a distributed system. Understanding these models can provide insights into how databases, caching systems, and other distributed systems operate.
+
+Here's the essential 20% that will give you an understanding of the 80% of the concept:
+
+1. Definition and Importance: Data consistency models define the behavior of read and write operations for a storage system. They are crucial for understanding system behavior, performance, and the complexity of the applications built on top of them.
+
+2. Sequential Consistency: This is the simplest model. It requires that all operations on data appear to have occurred in some sequential order and that operations from each individual process appear in the order issued by that process. This model gives the illusion that all operations are happening one after the other, which is easy to understand but challenging to implement in distributed systems due to latency.
+
+3. Eventual Consistency: This model is often used in distributed databases. The principle here is that given enough time, all replicas of the data will eventually be consistent. It's important to note that the system may not be consistent all the time. The advantage is high availability and fault tolerance but at the risk of data inconsistency.
+
+4. Strong Consistency: This model states that a read operation will always return the value of the most recent write operation. This is difficult to achieve in distributed systems due to the time it takes for data to propagate to all nodes. However, it provides a level of certainty and predictability.
+
+5. Consistency vs. Availability trade-off (CAP Theorem): According to the CAP theorem, in a distributed data store, only two out of the following three guarantees can be met at the same time: Consistency (all nodes see the same data), Availability (every request receives a response), and Partition Tolerance (the system continues to operate despite network failures). This theorem fundamentally influences the design of distributed systems.
+
+6. ACID and BASE: These are properties of databases, and while they are not consistency models themselves, they are affected by the choice of consistency model. ACID (Atomicity, Consistency, Isolation, Durability) properties focus on strong consistency and are typically found in traditional relational databases. In contrast, BASE (Basically Available, Soft state, Eventually consistent) properties embrace the reality of distributed systems and relax consistency requirements in favor of availability.
+
+Understanding these concepts will provide a solid foundation for deeper exploration of data consistency models and their applications in various systems. It's crucial to remember that there is no 'one-size-fits-all' model, and the appropriate model varies depending on system requirements and constraints.
+
+
+
+
+
+
+* To create a code block type:
+{% highlight bash %}
+  and the next text would be highlighted
+{% endhighlight %}
