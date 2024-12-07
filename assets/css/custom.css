@@ -3,10 +3,10 @@
 .content-wrapper {
     position: relative;
     width: 80%;
-    max-width: 900px;
-    margin: 0 auto;
+    max-width: 1000px;
+    margin: 4rem auto;
     display: flex;
-    gap: 30px;
+    gap: 40px;
 }
 
 .sidebar {
@@ -15,7 +15,7 @@
 
 .content {
     flex: 1;
-    max-width: 700px; /* Match your original post width */
+    max-width: 700px;
 }
 
 .tags-list {
@@ -68,11 +68,20 @@
     margin: 4rem 0;
 }
 
+/* Override original theme's post styles */
+.content .post {
+    width: 100%;
+    max-width: none;
+    margin: 4rem 0;
+    padding-bottom: 4rem;
+}
+
 /* Responsive adjustments */
 @media only screen and (max-width: 900px) {
     .content-wrapper {
         flex-direction: column;
-        width: 80%;
+        width: 90%;
+        margin: 2rem auto;
     }
     
     .sidebar {
@@ -85,16 +94,15 @@
         position: static;
     }
     
-    .post {
-        width: 100%;
+    .content .post {
+        margin: 2rem 0;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .content-wrapper {
         width: auto;
-        margin-left: 16px;
-        margin-right: 16px;
+        margin: 1rem 16px;
     }
     
     .sidebar {
