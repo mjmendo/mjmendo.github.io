@@ -20,28 +20,36 @@
 
 .tags-list {
     background: #F7FAFB;
-    padding: 15px;
+    padding: 20px;
     border-radius: 4px;
     border: 1px solid #EBF2F6;
     position: sticky;
     top: 20px;
+    text-align: center;
 }
 
 .tags-list h4 {
-    margin: 0 0 15px 0;
+    margin: 0 0 20px 0;
     color: #50585D;
     font-size: 1.6rem;
     font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid #EBF2F6;
+    padding-bottom: 10px;
 }
 
 .tag-item {
-    display: inline-block;
+    display: block;
     color: #9EABB3;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.4rem;
     text-decoration: none;
-    margin: 0 10px 10px 0;
+    margin: 0 0 15px 0;
     transition: color 0.3s ease;
+    line-height: 1.4;
+}
+
+.tag-item:last-child {
+    margin-bottom: 0;
 }
 
 .tag-item:hover {
