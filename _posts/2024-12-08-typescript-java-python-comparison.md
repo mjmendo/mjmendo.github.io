@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "TypeScript, Java, and Python: A Developer's Guide to Type Systems"
-date: 2024-03-08
+date: 2024-12-08
 categories: [programming, typescript, java, python]
 tags: [development, types, comparison, coding]
 author: Your Name
