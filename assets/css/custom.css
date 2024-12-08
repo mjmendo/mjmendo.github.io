@@ -65,7 +65,42 @@
 /* Fix post width */
 .post {
     width: 100%;
-    margin: 4rem 0;
+    max-width: 700px;
+    margin: 4rem auto;
+    padding-bottom: 4rem;
+}
+
+/* Post content styles */
+.post-content {
+    width: 100%;
+    max-width: 700px;
+    margin: 2rem auto;
+}
+
+.post-content h1, 
+.post-content h2,
+.post-content h3,
+.post-content h4 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.post-content p {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.post-content pre {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background: #F7FAFB;
+    border-radius: 3px;
+    overflow-x: auto;
+}
+
+.post-content pre code {
+    padding: 0;
+    background: transparent;
 }
 
 /* Override original theme's post styles */
@@ -96,6 +131,12 @@
     
     .content .post {
         margin: 2rem 0;
+    }
+    
+    .post,
+    .post-content {
+        width: 100%;
+        padding: 0;
     }
 }
 
