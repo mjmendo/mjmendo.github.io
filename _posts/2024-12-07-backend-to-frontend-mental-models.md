@@ -24,6 +24,10 @@ As a seasoned backend developer transitioning to full-stack development, one of 
 ### Event Handling
 - **Backend**: Event listeners and triggers
 - **Frontend**: useEffect and event handlers
+
+Note: useEffect is a "listener" to handle **behaviour when the state of an object changes**. Remember functions are also objects in JS, so the can also change and therefore be in the dep array of the useEffect hook.
+
+
   ```typescript
   // Backend: Database trigger
   ON UPDATE tickets SET updated_at = NOW();
@@ -31,7 +35,7 @@ As a seasoned backend developer transitioning to full-stack development, one of 
   // Frontend: Effect hook
   useEffect(() => {
     onFilterChange(activeFilters);
-  }, [activeFilters]);
+  }, [activeFilters, onFilterChange]);
   ```
 
 ### Data Flow
