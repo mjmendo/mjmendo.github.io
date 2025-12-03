@@ -1,0 +1,182 @@
+/* Dark Mode Styles */
+
+:root {
+    --bg-color: #ffffff;
+    --text-color: #3a4145;
+    --link-color: #57a3e8;
+    --header-bg: rgba(0, 0, 0, 0.2);
+    --sidebar-bg: #f7f7f7;
+    --sidebar-border: #e5e5e5;
+    --post-bg: #ffffff;
+    --code-bg: #f5f5f5;
+    --code-border: #e5e5e5;
+    --border-color: #e5e5e5;
+    --tag-hover-bg: #e5e5e5;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+body.dark-mode {
+    --bg-color: #1a1a1a;
+    --text-color: #e4e4e4;
+    --link-color: #6eb4ff;
+    --header-bg: rgba(0, 0, 0, 0.5);
+    --sidebar-bg: #252525;
+    --sidebar-border: #3a3a3a;
+    --post-bg: #222222;
+    --code-bg: #2d2d2d;
+    --code-border: #3a3a3a;
+    --border-color: #3a3a3a;
+    --tag-hover-bg: #3a3a3a;
+    --shadow-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Apply dark mode colors */
+body.dark-mode {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+body.dark-mode .content-wrapper {
+    background-color: var(--bg-color);
+}
+
+body.dark-mode .sidebar {
+    background-color: var(--sidebar-bg);
+    border-right: 1px solid var(--sidebar-border);
+}
+
+body.dark-mode .tags-list {
+    color: var(--text-color);
+}
+
+body.dark-mode .tag-item {
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+}
+
+body.dark-mode .tag-item:hover,
+body.dark-mode .tag-item.active {
+    background-color: var(--tag-hover-bg);
+}
+
+body.dark-mode .post {
+    background-color: var(--post-bg);
+    border-bottom: 1px solid var(--border-color);
+}
+
+body.dark-mode .post-title a {
+    color: var(--text-color);
+}
+
+body.dark-mode .post-meta {
+    color: #999;
+}
+
+body.dark-mode a {
+    color: var(--link-color);
+}
+
+body.dark-mode pre,
+body.dark-mode code {
+    background-color: var(--code-bg);
+    border: 1px solid var(--code-border);
+}
+
+body.dark-mode .site-footer {
+    background-color: var(--sidebar-bg);
+    color: var(--text-color);
+    border-top: 1px solid var(--border-color);
+}
+
+body.dark-mode .archive ul li {
+    border-bottom: 1px solid var(--border-color);
+}
+
+body.dark-mode .post-content {
+    color: var(--text-color);
+}
+
+body.dark-mode .post-header {
+    border-bottom: 1px solid var(--border-color);
+}
+
+body.dark-mode blockquote {
+    border-left: 4px solid var(--border-color);
+    color: #999;
+}
+
+body.dark-mode hr {
+    border-color: var(--border-color);
+}
+
+body.dark-mode table {
+    border: 1px solid var(--border-color);
+}
+
+body.dark-mode table th,
+body.dark-mode table td {
+    border: 1px solid var(--border-color);
+}
+
+/* Dark mode toggle button */
+.dark-mode-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--sidebar-bg);
+    border: 2px solid var(--border-color);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    transition: all 0.3s ease;
+    z-index: 1000;
+    box-shadow: 0 2px 8px var(--shadow-color);
+}
+
+.dark-mode-toggle:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px var(--shadow-color);
+}
+
+.dark-mode-toggle:active {
+    transform: scale(0.95);
+}
+
+/* Icons for toggle button */
+.dark-mode-toggle .icon {
+    transition: opacity 0.3s ease;
+}
+
+.dark-mode-toggle .sun-icon {
+    opacity: 0;
+    position: absolute;
+}
+
+.dark-mode-toggle .moon-icon {
+    opacity: 1;
+}
+
+body.dark-mode .dark-mode-toggle .sun-icon {
+    opacity: 1;
+}
+
+body.dark-mode .dark-mode-toggle .moon-icon {
+    opacity: 0;
+}
+
+/* Smooth transition for dark mode */
+body,
+.content-wrapper,
+.sidebar,
+.post,
+.tag-item,
+.site-footer,
+a,
+.dark-mode-toggle {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}

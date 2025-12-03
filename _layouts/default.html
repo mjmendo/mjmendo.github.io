@@ -19,9 +19,17 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/custom.css">
     <!-- Customisation  -->
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
+    <!-- Dark mode styles -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/dark-mode.css" />
 
 </head>
 <body class="home-template">
+
+    <!-- Dark mode toggle button -->
+    <button class="dark-mode-toggle" id="darkModeToggle" aria-label="Toggle dark mode">
+        <span class="icon sun-icon">☀️</span>
+        <span class="icon moon-icon">🌙</span>
+    </button>
 
     {{ content }}
 
@@ -36,6 +44,33 @@
     <script type="text/javascript" src="/assets/js/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
     <script type="text/javascript" src="/assets/js/index.js"></script>
+
+    <!-- Dark mode toggle script -->
+    <script>
+        // Check for saved dark mode preference or default to light mode
+        (function() {
+            const darkMode = localStorage.getItem('darkMode');
+            if (darkMode === 'enabled') {
+                document.body.classList.add('dark-mode');
+            }
+        })();
+
+        // Dark mode toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const darkModeToggle = document.getElementById('darkModeToggle');
+
+            darkModeToggle.addEventListener('click', function() {
+                document.body.classList.toggle('dark-mode');
+
+                // Save preference to localStorage
+                if (document.body.classList.contains('dark-mode')) {
+                    localStorage.setItem('darkMode', 'enabled');
+                } else {
+                    localStorage.setItem('darkMode', 'disabled');
+                }
+            });
+        });
+    </script>
 
     <!-- Google Analytics Tracking code -->
     <script type="text/javascript">
