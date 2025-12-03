@@ -107,7 +107,7 @@ This isn't just about convenience—it's about reliability. The browser vendors 
 
 ## The Platform Support Reality
 
-SSE has one significant limitation: no Internet Explorer support. In 2024, this rarely matters, but it's worth noting.
+SSE has one significant limitation: no Internet Explorer support. In 2025, this rarely matters, but it's worth noting.
 
 For mobile apps, the story gets interesting:
 
