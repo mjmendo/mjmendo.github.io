@@ -142,21 +142,23 @@ body.dark-mode hr {
 }
 
 body.dark-mode table {
-    border: 1px solid var(--border-color);
-    background-color: var(--code-bg);
+    border: 1px solid #4a4a4a;
+    background-color: #1e1e1e;
 }
 
 body.dark-mode table th {
-    border: 1px solid var(--border-color);
-    background-color: #333333;
-    color: var(--text-color);
+    border: 1px solid #4a4a4a;
+    background-color: #2a2a2a;
+    color: #e4e4e4;
     font-weight: bold;
+    padding: 8px 12px;
 }
 
 body.dark-mode table td {
-    border: 1px solid var(--border-color);
-    background-color: var(--code-bg);
-    color: var(--text-color);
+    border: 1px solid #4a4a4a;
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    padding: 8px 12px;
 }
 
 /* Dark mode toggle button */
