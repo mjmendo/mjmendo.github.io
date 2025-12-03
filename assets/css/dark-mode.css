@@ -143,11 +143,20 @@ body.dark-mode hr {
 
 body.dark-mode table {
     border: 1px solid var(--border-color);
+    background-color: var(--code-bg);
 }
 
-body.dark-mode table th,
+body.dark-mode table th {
+    border: 1px solid var(--border-color);
+    background-color: #333333;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
 body.dark-mode table td {
     border: 1px solid var(--border-color);
+    background-color: var(--code-bg);
+    color: var(--text-color);
 }
 
 /* Dark mode toggle button */
