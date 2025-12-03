@@ -150,6 +150,9 @@ Based on existing posts, the blog focuses on:
 **Author:** Marcelo Mendoza
 **Repository:** https://github.com/mjmendo/mjmendo.github.io
 
+## Important information
+- NEVER include Claude signature to documents, PRs commits or any other generated resource.
+
 ---
 
 *This file helps Claude understand the project structure and provide better assistance with blog management, post creation, and site maintenance.*
