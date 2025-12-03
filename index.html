@@ -25,9 +25,9 @@ archives: 'archives.html'
             <h4>Tags</h4>
             {% for tag in site.tags %}
                 {% assign t = tag | first %}
-                <a href="/tag/{{ t | downcase | replace: ' ', '-' }}/" class="tag-item">
+                <span class="tag-item">
                     {{ t }} <span class="tag-count">({{ tag | last | size }})</span>
-                </a>
+                </span>
             {% endfor %}
         </div>
     </aside>
