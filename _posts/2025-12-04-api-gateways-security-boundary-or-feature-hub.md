@@ -2,7 +2,8 @@
 layout: post
 title: "API Gateways: Security Boundary or Feature Hub?"
 date: 2025-12-04
-categories: [architecture, api-design, security]
+categories: [architecture]
+tags: [api-design, security, microservices, patterns]
 ---
 
 API Gateways have become ubiquitous in modern architectures, but what exactly are they? More importantly, are they primarily security components that have accumulated features over time, or architectural necessities with security as a side benefit? Let's explore what API Gateways truly are, their evolution, and the emerging trend toward disaggregation.

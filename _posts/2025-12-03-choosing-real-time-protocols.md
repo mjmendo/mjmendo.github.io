@@ -2,7 +2,8 @@
 layout: post
 title: "Choosing Real-Time Protocols: WebSockets, SSE, or gRPC?"
 date: 2025-12-03
-categories: [architecture, protocols, real-time]
+categories: [architecture]
+tags: [protocols, real-time, websockets, grpc, performance]
 ---
 
 When building modern applications that need server-to-client updates, you're faced with a decision: WebSockets, Server-Sent Events (SSE), or gRPC? Each has its advocates, and the internet is full of strong opinions. But like most architectural decisions, the answer is "it depends."

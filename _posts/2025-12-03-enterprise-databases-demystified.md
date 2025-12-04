@@ -2,7 +2,8 @@
 layout: post
 title: "Enterprise Databases Demystified: When You Actually Need Them"
 date: 2025-12-03
-categories: [databases, architecture, postgresql, enterprise]
+categories: [backend]
+tags: [databases, postgresql, architecture, comparison]
 ---
 
 I recently dove into understanding what makes a database "enterprise." Having worked with DB2, SQL Server, Oracle, MySQL, and PostgreSQL across different company sizes, I noticed something: the technical gaps have largely closed. So what's really going on?
