@@ -153,6 +153,7 @@ Based on existing posts, the blog focuses on:
 ## Important information
 - NEVER include Claude signature to documents, PRs commits or any other generated resource.
 - When creating blog posts with tables and code, remember to use colors that are dark-mode friendly.
+- Assess the generated blog post and suggest the best tag/category to assign.
 
 ---
 
