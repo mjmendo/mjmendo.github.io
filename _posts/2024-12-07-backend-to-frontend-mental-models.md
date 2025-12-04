@@ -2,8 +2,7 @@
 layout: post
 title: "From Backend to Frontend: A Developer's Mental Model"
 date: 2024-12-07
-categories: [frontend]
-tags: [react, typescript, mental-models, patterns]
+categories: react
 ---
 
 As a seasoned backend developer transitioning to full-stack development, one of the biggest challenges is developing a mental model for frontend concepts. This post explores the parallels between backend and frontend development, focusing on React and TypeScript, through the lens of a ticket management system implementation.

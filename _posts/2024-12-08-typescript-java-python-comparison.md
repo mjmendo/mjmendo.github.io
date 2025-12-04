@@ -2,8 +2,7 @@
 layout: post
 title: "TypeScript, Java, and Python: A Developer's Guide to Type Systems"
 date: 2024-12-08
-categories: [languages]
-tags: [typescript, java, python, type-systems, comparison]
+categories: languages
 ---
 
 As modern software development continues to evolve, understanding different type systems and their implementations across popular programming languages becomes increasingly important. In this post, we'll dive deep into how TypeScript, Java, and Python handle types and other key programming concepts, helping you make informed decisions about which language best suits your needs.
