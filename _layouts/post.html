@@ -7,15 +7,15 @@ archive: true
 <div class="content-wrapper">
     <aside class="sidebar">
         <div class="tags-list">
-            <h4>Tags</h4>
+            <h4>Categories</h4>
             <a href="/" class="tag-item">
                 All Posts <span class="tag-count">({{ site.posts | size }})</span>
             </a>
-            {% assign tags = site.tags | sort %}
-            {% for tag in tags %}
-                {% assign t = tag | first %}
-                <a href="/#tag-{{ t | downcase | replace: ' ', '-' }}" class="tag-item">
-                    {{ t }} <span class="tag-count">({{ tag | last | size }})</span>
+            {% assign categories = site.categories | sort %}
+            {% for category in categories %}
+                {% assign c = category | first %}
+                <a href="/#tag-{{ c | downcase | replace: ' ', '-' }}" class="tag-item">
+                    {{ c }} <span class="tag-count">({{ category | last | size }})</span>
                 </a>
             {% endfor %}
         </div>
